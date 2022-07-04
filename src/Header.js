@@ -1,6 +1,5 @@
 import React from "react";
 import { createStyles, Header, Container, Group, Button } from "@mantine/core";
-import { useBooleanToggle } from "@mantine/hooks";
 
 const HEADER_HEIGHT = 60;
 

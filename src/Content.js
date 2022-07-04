@@ -1,17 +1,12 @@
 import React from "react";
 import {
   createStyles,
-  Image,
   Container,
   Title,
   Button,
   Group,
   Text,
-  List,
-  ThemeIcon,
 } from "@mantine/core";
-import { Check } from "tabler-icons-react";
-// import image from './image.svg';
 
 const useStyles = createStyles((theme) => ({
   inner: {
@@ -99,7 +94,7 @@ export default function Content({ isLogin, onMint }) {
               </Group>
             )}
           </div>
-          {/* <Image src={tiger} className={classes.image} /> */}
+          {/* <Image src={image} className={classes.image} /> */}
         </div>
       </Container>
     </div>
